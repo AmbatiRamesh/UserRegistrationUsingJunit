@@ -14,9 +14,9 @@ public class Testing {
         System.out.println("Passed");
     }
     @Test
-    public void givenPasswordRule2ShouldReturnTrue() {
+    public void givenPasswordRule3ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        assertEquals(true, userRegistration.password("msdhoni"));
+        assertEquals(true, userRegistration.password("Rohitsharma45"));
     }
 }
 
