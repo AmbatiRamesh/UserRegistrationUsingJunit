@@ -16,7 +16,7 @@ public class Testing {
     @Test
     public void givenFirstNameShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        assertEquals(true, userRegistration.checkFirstName("Ramesh"));
+        assertEquals(true, userRegistration.checkLastName("Ambati"));
     }
 }
 
