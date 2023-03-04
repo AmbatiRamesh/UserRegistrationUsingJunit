@@ -14,9 +14,9 @@ public class Testing {
         System.out.println("Passed");
     }
     @Test
-    public void givenFirstNameShouldReturnTrue() {
+    public void givenEmailIdShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        assertEquals(true, userRegistration.checkLastName("Ambati"));
+        assertEquals(true, userRegistration.checkEmailId("rameshambati.ab@gmail.com"));
     }
 }
 
