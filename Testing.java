@@ -16,7 +16,7 @@ public class Testing {
     @Test
     public void givenPasswordRule3ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        assertEquals(true, userRegistration.password("Rohitsharma45"));
+        assertEquals(true, userRegistration.password("Rohitsharma45@"));
     }
 }
 
