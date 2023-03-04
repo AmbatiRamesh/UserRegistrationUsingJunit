@@ -14,9 +14,9 @@ public class Testing {
         System.out.println("Passed");
     }
     @Test
-    public void givenPhoneNumberShouldReturnTrue() {
+    public void givenPasswordRule1ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        assertEquals(true, userRegistration.checkPhoneNumber("91 9640827483"));
+        assertEquals(true, userRegistration.password("viratkohli"));
     }
 }
 
