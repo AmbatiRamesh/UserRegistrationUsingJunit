@@ -5,12 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Testing {
-    @BeforeEach
+    @Before
     void Message(){
         System.out.println("-----Welcome to User Registration Problem-----");
     }
-    @AfterAll
-    public static void afterMessage(){
+    @After
+    public void afterMessage(){
         System.out.println("Passed");
     }
     @Test
